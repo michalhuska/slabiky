@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; /* světle modrá barva pozadí */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ff69b4; /* světle růžová barva */
+}
+
+#slabika {
+    font-size: 60px; /* velké písmo pro slabiky */
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ffdfba; /* světle oranžová barva */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffc107; /* tmavší oranžová barva při najetí myší */
+}
+
+/* Styl pro obrázková tlačítka */
+.button-img {
+    background: url('path-to-your-image.jpg') no-repeat center center;
+    background-size: contain;
+    width: 50px; /* šířka tlačítka */
+    height: 50px; /* výška tlačítka */
+    border: none;
+    cursor: pointer;
+}
+
+/* Případné další úpravy pro mobilní zařízení */
+@media (max-width: 600px) {
+    #app {
+        padding: 10px;
+    }
+
+    #slabika {
+        font-size: 40px;
+    }
+}
+
+.button-img {
+    border: none;
+    cursor: pointer;
+    width: 100px; /* šířka obrázkového tlačítka */
+    height: 100px; /* výška obrázkového tlačítka */
+    transition: transform 0.2s, box-shadow 0.2s; /* animace pro efekty */
+}
+
+.button-img:hover {
+    transform: scale(1.05); /* mírně zvětší tlačítko při najetí myší */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* přidá stín pro efekt zvýraznění */
+}
+
+.button-img:active {
+    transform: scale(0.95); /* zmenší tlačítko při kliknutí */
+}
+
+#readButton {
+    background-image: url('path-to-read-button.png'); /* cesta k obrázku pro tlačítko "Přečíst Slabiku" */
+}
+
+#nextButton {
+    background-image: url('path-to-next-button.png'); /* cesta k obrázku pro tlačítko "Další Slabika" */
+}
