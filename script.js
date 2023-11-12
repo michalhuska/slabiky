@@ -1,4 +1,4 @@
-const slabiky = ["ma", "Ma", "me", "me", "Le", "má", "mé", "lá", "Lé", "Lá", "ma", "me", "la", "le", "ma", "mé", "Má", "Lá", "Lé", "LE", "LA", "Sa", "sá", "sé", "SA", "sa", "se", "Sá", "Sé", "sa", "ma", "MÁ", "SE", "se", "le", "lé", "MA", "na", "La", "Sá", "La", "Sá", "SA", "SA", "ME", "LE", "KONEC"];
+const slabiky = ["ma", "Ma", "me", "me", "Le", "má", "mé", "lá", "Lé", "Lá", "ma", "me", "la", "le", "ma", "mé", "Má", "Lá", "Lé", "LE", "LA", "Sa", "sá", "sé", "SA", "sa", "se", "Sá", "Sé", "sa", "ma", "MÁ", "SE", "se", "le", "lé", "MA", "na", "La", "Sá", "La", "Sá", "SA", "SA", "ME", "LE", "Ála", "máma", "ELA", "MÍLA", "Emil", "Ola", "eso", "Ema", "Eva", "Véna", "sele", "máme", "sama", "Álo", "Emo", "Elo"];
 let currentIndex = 0;
 
 document.getElementById("readButton").addEventListener("click", readCurrentSlabika);
@@ -14,6 +14,6 @@ function readCurrentSlabika() {
 }
 
 function showNextSlabika() {
-    currentIndex = (currentIndex + 1) % slabiky.length;
+    currentIndex = Math.floor(Math.random() * slabiky.length);
     document.getElementById("slabika").textContent = slabiky[currentIndex];
 }
