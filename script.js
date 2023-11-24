@@ -6,7 +6,7 @@ document.getElementById("nextButton").addEventListener("click", showNextSlabika)
 
 function readCurrentSlabika() {
     let synth = window.speechSynthesis;
-    let utterance = new SpeechSynthesisUtterance(slabiky[currentIndex]);
+    let utterance = new SpeechSynthesisUtterance(slabiky[currentIndex].toLowerCase());
     utterance.lang = 'cs-CZ';
 	utterance.rate = 0.4; // Rychlost mluvení (1 je normální rychlost)
     utterance.pitch = 1.9; // Výška hlasu (1 je normální výška)
