@@ -1,4 +1,4 @@
-const slabiky = ["ma", "Ma", "me", "me", "Le", "má", "mé", "lá", "Lé", "Lá", "ma", "me", "la", "le", "ma", "mé", "Má", "Lá", "Lé", "LE", "LA", "Sa", "sá", "sé", "SA", "sa", "se", "Sá", "Sé", "sa", "ma", "MÁ", "SE", "se", "le", "lé", "MA", "na", "La", "Sá", "La", "Sá", "SA", "SA", "ME", "LE", "Ála", "máma", "ELA", "MÍLA", "Emil", "Ola", "eso", "Ema", "Eva", "Véna", "sele", "máme", "sama", "Álo", "Emo", "Elo", "Mo", "mo", "So", "so", "MO", "SO", "Mó", "mó", "Só", "só", "Mó", "Só", "Ema", "Ela", "Ola", "Ála", "Emo!", "Elo!", "Olo!", "Álo!"];
+const slabiky = ["me", "mo", "ma", "sé", "sa", "sá", "lo", "la", "lá", "se", "só", "sa", "má", "mé", "mó", "lé", "ló", "le", "pa", "Pá", "pá", "Pe", "pe", "PO", "po", "Pó", "pó", "Pé", "pé", "PA"];
 let currentIndex = 0;
 
 document.getElementById("readButton").addEventListener("click", readCurrentSlabika);
