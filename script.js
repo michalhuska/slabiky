@@ -1,4 +1,4 @@
-const slabiky = ["me", "mo", "ma", "sé", "sa", "sá", "lo", "la", "lá", "se", "só", "sa", "má", "mé", "mó", "lé", "ló", "le", "pa", "Pá", "pá", "Pe", "pe", "PO", "po", "Pó", "pó", "Pé", "pé", "PA"];
+const slabiky = ["la", "LA", "La", "lá", "Lá", "Le", "le", "LE", "Lé", "lé", "li", "Lí", "lo", "ló", "lu", "Lu", "Lů", "lů", "ma", "Ma", "MA", "má", "Má", "MÁ", "me", "ME", "mé", "mi", "mí", "Mí", "Mo", "mo", "MO", "Mó", "mó", "mu", "mů", "Mů", "na", "Na", "NA", "Ná", "Ná", "NÁ", "ne", "NE", "Né", "ni", "ní", "Ní", "No", "no", "NO", "Nó", "nó", "nu", "nů", "Nů", "pa", "PA", "Pá", "pá", "Pe", "pe", "Pé", "pé", "pi", "Pi", "pí", "Pí", "PO", "po", "Pó", "pó", "Pu", "pu", "pů", "Pů", "Sa", "SA", "sa", "sá", "Sá", "se", "SE", "sé", "Sé", "So", "so", "SO", "Só", "só", "su", "Su", "sů", "Sů", "sama", "sele", "Véna", "Ála", "Álo!", "Álo", "ELA", "Ela", "Elo!", "Elo", "Ema", "Emil", "Emo!", "Emo", "eso", "Eva", "máma", "máme", "MÍLA", "Ola", "Olo!", "mísa", "mele", "pusa", "mimi", "osel", "les", "pes", "salám", "láme", "lípa", "pila", "maso"];
 let currentIndex = 0;
 
 document.getElementById("readButton").addEventListener("click", readCurrentSlabika);
