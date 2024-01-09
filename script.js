@@ -30,7 +30,7 @@ const slabikyMap = {
     "mí": "§mí",
     "Mí": "Mí",
     "Mo": "Mo",
-    "mo": "mo",
+    "mo": "§mo",
     "MO": "MO",
     "Mó": "Mó",
     "mó": "§mó",
