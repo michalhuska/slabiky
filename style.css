@@ -7,6 +7,15 @@ body {
     padding: 20px;
 }
 
+@font-face {
+    font-family: 'Alodyx_CSM.ttf';
+    src: url('Alodyx_CSM.ttf') format('woff'); /* Adjust the path and format as needed */
+}
+
+#slabika {
+    font-family: 'Alodyx_CSM.ttf', sans-serif; /* Fallback to sans-serif if Alodyx_CSM is not available */
+}
+
 #app {
     max-width: 600px;
     margin: auto;
