@@ -130,7 +130,7 @@ const slabikyMap = {
     "maso": "§mas§o"
 };
 
-let currentIndex = 95;
+let currentIndex = 0;
 
 document.getElementById("readButton").addEventListener("click", readCurrentSlabika);
 document.getElementById("nextButton").addEventListener("click", showNextSlabika);
