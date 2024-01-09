@@ -147,8 +147,8 @@ function readCurrentSlabika() {
 }
 
 function showNextSlabika() {
-    //currentIndex = Math.floor(Math.random() * Object.keys(slabikyMap).length); // Random index based on the number of keys
-	currentIndex = currentIndex + 1;
+    currentIndex = Math.floor(Math.random() * Object.keys(slabikyMap).length); // Random index based on the number of keys
+	//currentIndex = currentIndex + 1;
     let currentValue = Object.values(slabikyMap)[currentIndex]; // Get the value corresponding to the current index
     document.getElementById("slabika").textContent = currentValue;
 }
